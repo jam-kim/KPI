@@ -81,12 +81,12 @@ class code:
     hive query 실행 함수    
     '''
     def sendingcode(self):
-        conn = pyhs2.connect(host='mgmt05.ess.com',
-                                  port=10000,
-                                  authMechanism="PLAIN",
-                                  user='bmsanl',
-                                  password='ndap1234~',
-                                  database='default')
+        conn = pyhs2.connect(host='',
+                                  port='',
+                                  authMechanism='',
+                                  user='',
+                                  password='',
+                                  database='')
         cursor = conn.cursor()  
         # cursor.getDatabases().
         cursor.execute(self.ndapcode)
