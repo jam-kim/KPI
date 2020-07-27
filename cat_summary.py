@@ -3,6 +3,7 @@ import pandas as pd
 import time 
 import os
 
+
 class bms_code:
     typedata = "/home/ndap/output/table_types.xlsx"
     bmspartition = "/home/ndap/output/bms_partition.xlsx"
@@ -55,12 +56,12 @@ class bms_code:
         elif types is "samplecode":
             self.samplecode(tablename,date,time)            
         print self.ndapcode
-        conn1 = pyhs2.connect(host='mgmt05.ess.com',
-                              port=10000,
-                              authMechanism="PLAIN",
-                              user='bmsanl',
-                              password='ndap1234~',
-                              database='default')
+        conn1 = pyhs2.connect(host='',
+                              port='',
+                              authMechanism='',
+                              user='',
+                              password='',
+                              database='')
         cursor = conn1.cursor()
         # cursor.getDatabases().
         cursor.execute(self.ndapcode)
