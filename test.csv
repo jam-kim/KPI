@@ -1,0 +1,11 @@
+﻿a,b,c,d,e,f,g,h
+aa,1,1,1,1,1,1,1
+b,2,2,2,2,2,2,2
+c,NaN,3,3,3,3,3,3
+,df,,,,,,
+df,e,1,1,1,1,1,1
+e,,2,2,2,2,2,2
+NaN,Null,NaN,,,,,
+Null,?,Null,Null,Null,NaN,,
+?,,?,?,,,,
+NULL,?,NULL,NULL,NULL,NULL,NULL,
